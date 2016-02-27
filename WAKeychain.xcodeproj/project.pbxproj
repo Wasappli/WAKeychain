@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2D6F930D56A668A0CB4D3A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2762E3EFD99963141FA88287 /* libPods.a */; };
+		E0FE7DAF1C81EA0300F8EB16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FE7DAE1C81EA0300F8EB16 /* main.m */; };
+		E0FE7DB21C81EA0300F8EB16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FE7DB11C81EA0300F8EB16 /* AppDelegate.m */; };
+		E0FE7DB51C81EA0300F8EB16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FE7DB41C81EA0300F8EB16 /* ViewController.m */; };
+		E0FE7DB81C81EA0300F8EB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FE7DB61C81EA0300F8EB16 /* Main.storyboard */; };
+		E0FE7DBA1C81EA0300F8EB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FE7DB91C81EA0300F8EB16 /* Assets.xcassets */; };
+		E0FE7DBD1C81EA0300F8EB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FE7DBB1C81EA0300F8EB16 /* LaunchScreen.storyboard */; };
+		E0FE7DC81C81EA0300F8EB16 /* WAKeychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FE7DC71C81EA0300F8EB16 /* WAKeychainTests.m */; };
+		E0FE7DD71C81EA8100F8EB16 /* WAKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FE7DD61C81EA8100F8EB16 /* WAKeychain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0FE7DC41C81EA0300F8EB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0FE7DA21C81EA0300F8EB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0FE7DA91C81EA0300F8EB16;
+			remoteInfo = WAKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2762E3EFD99963141FA88287 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FE7DAA1C81EA0300F8EB16 /* WAKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FE7DAE1C81EA0300F8EB16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0FE7DB01C81EA0300F8EB16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0FE7DB11C81EA0300F8EB16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0FE7DB31C81EA0300F8EB16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0FE7DB41C81EA0300F8EB16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0FE7DB71C81EA0300F8EB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0FE7DB91C81EA0300F8EB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0FE7DBC1C81EA0300F8EB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0FE7DBE1C81EA0300F8EB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FE7DC31C81EA0300F8EB16 /* WAKeychainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAKeychainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FE7DC71C81EA0300F8EB16 /* WAKeychainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAKeychainTests.m; sourceTree = "<group>"; };
+		E0FE7DC91C81EA0300F8EB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FE7DD51C81EA8100F8EB16 /* WAKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAKeychain.h; sourceTree = "<group>"; };
+		E0FE7DD61C81EA8100F8EB16 /* WAKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAKeychain.m; sourceTree = "<group>"; };
+		F56BA4FA1B8B263185EB5973 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F994C8305C32FAD29CE956CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0FE7DA71C81EA0300F8EB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2D6F930D56A668A0CB4D3A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FE7DC01C81EA0300F8EB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503205EAE3014FC76731816E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2762E3EFD99963141FA88287 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FE7DA11C81EA0300F8EB16 = {
+			isa = PBXGroup;
+			children = (
+				E0FE7DAC1C81EA0300F8EB16 /* WAKeychain */,
+				E0FE7DC61C81EA0300F8EB16 /* WAKeychainTests */,
+				E0FE7DAB1C81EA0300F8EB16 /* Products */,
+				F6C3F33F8E9FCCBC1E2866EE /* Pods */,
+				503205EAE3014FC76731816E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0FE7DAB1C81EA0300F8EB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE7DAA1C81EA0300F8EB16 /* WAKeychain.app */,
+				E0FE7DC31C81EA0300F8EB16 /* WAKeychainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0FE7DAC1C81EA0300F8EB16 /* WAKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE7DD41C81EA7100F8EB16 /* Files */,
+				E0FE7DB01C81EA0300F8EB16 /* AppDelegate.h */,
+				E0FE7DB11C81EA0300F8EB16 /* AppDelegate.m */,
+				E0FE7DB31C81EA0300F8EB16 /* ViewController.h */,
+				E0FE7DB41C81EA0300F8EB16 /* ViewController.m */,
+				E0FE7DB61C81EA0300F8EB16 /* Main.storyboard */,
+				E0FE7DB91C81EA0300F8EB16 /* Assets.xcassets */,
+				E0FE7DBB1C81EA0300F8EB16 /* LaunchScreen.storyboard */,
+				E0FE7DBE1C81EA0300F8EB16 /* Info.plist */,
+				E0FE7DAD1C81EA0300F8EB16 /* Supporting Files */,
+			);
+			path = WAKeychain;
+			sourceTree = "<group>";
+		};
+		E0FE7DAD1C81EA0300F8EB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE7DAE1C81EA0300F8EB16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0FE7DC61C81EA0300F8EB16 /* WAKeychainTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE7DC71C81EA0300F8EB16 /* WAKeychainTests.m */,
+				E0FE7DC91C81EA0300F8EB16 /* Info.plist */,
+			);
+			path = WAKeychainTests;
+			sourceTree = "<group>";
+		};
+		E0FE7DD41C81EA7100F8EB16 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE7DD51C81EA8100F8EB16 /* WAKeychain.h */,
+				E0FE7DD61C81EA8100F8EB16 /* WAKeychain.m */,
+			);
+			path = Files;
+			sourceTree = SOURCE_ROOT;
+		};
+		F6C3F33F8E9FCCBC1E2866EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F56BA4FA1B8B263185EB5973 /* Pods.debug.xcconfig */,
+				F994C8305C32FAD29CE956CF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0FE7DA91C81EA0300F8EB16 /* WAKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FE7DCC1C81EA0300F8EB16 /* Build configuration list for PBXNativeTarget "WAKeychain" */;
+			buildPhases = (
+				2A9492ACE215106122A140AC /* Check Pods Manifest.lock */,
+				E0FE7DA61C81EA0300F8EB16 /* Sources */,
+				E0FE7DA71C81EA0300F8EB16 /* Frameworks */,
+				E0FE7DA81C81EA0300F8EB16 /* Resources */,
+				CD958E56EB2CF53F777601A5 /* Embed Pods Frameworks */,
+				9441C56AB16C8E9AD57EB06A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAKeychain;
+			productName = WAKeychain;
+			productReference = E0FE7DAA1C81EA0300F8EB16 /* WAKeychain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0FE7DC21C81EA0300F8EB16 /* WAKeychainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FE7DCF1C81EA0300F8EB16 /* Build configuration list for PBXNativeTarget "WAKeychainTests" */;
+			buildPhases = (
+				E0FE7DBF1C81EA0300F8EB16 /* Sources */,
+				E0FE7DC01C81EA0300F8EB16 /* Frameworks */,
+				E0FE7DC11C81EA0300F8EB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0FE7DC51C81EA0300F8EB16 /* PBXTargetDependency */,
+			);
+			name = WAKeychainTests;
+			productName = WAKeychainTests;
+			productReference = E0FE7DC31C81EA0300F8EB16 /* WAKeychainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0FE7DA21C81EA0300F8EB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Wasappli;
+				TargetAttributes = {
+					E0FE7DA91C81EA0300F8EB16 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E0FE7DC21C81EA0300F8EB16 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E0FE7DA91C81EA0300F8EB16;
+					};
+				};
+			};
+			buildConfigurationList = E0FE7DA51C81EA0300F8EB16 /* Build configuration list for PBXProject "WAKeychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0FE7DA11C81EA0300F8EB16;
+			productRefGroup = E0FE7DAB1C81EA0300F8EB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0FE7DA91C81EA0300F8EB16 /* WAKeychain */,
+				E0FE7DC21C81EA0300F8EB16 /* WAKeychainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0FE7DA81C81EA0300F8EB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FE7DBD1C81EA0300F8EB16 /* LaunchScreen.storyboard in Resources */,
+				E0FE7DBA1C81EA0300F8EB16 /* Assets.xcassets in Resources */,
+				E0FE7DB81C81EA0300F8EB16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FE7DC11C81EA0300F8EB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9492ACE215106122A140AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9441C56AB16C8E9AD57EB06A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD958E56EB2CF53F777601A5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0FE7DA61C81EA0300F8EB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FE7DB51C81EA0300F8EB16 /* ViewController.m in Sources */,
+				E0FE7DB21C81EA0300F8EB16 /* AppDelegate.m in Sources */,
+				E0FE7DAF1C81EA0300F8EB16 /* main.m in Sources */,
+				E0FE7DD71C81EA8100F8EB16 /* WAKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FE7DBF1C81EA0300F8EB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FE7DC81C81EA0300F8EB16 /* WAKeychainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0FE7DC51C81EA0300F8EB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0FE7DA91C81EA0300F8EB16 /* WAKeychain */;
+			targetProxy = E0FE7DC41C81EA0300F8EB16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0FE7DB61C81EA0300F8EB16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FE7DB71C81EA0300F8EB16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0FE7DBB1C81EA0300F8EB16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FE7DBC1C81EA0300F8EB16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0FE7DCA1C81EA0300F8EB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0FE7DCB1C81EA0300F8EB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0FE7DCD1C81EA0300F8EB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56BA4FA1B8B263185EB5973 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WAKeychain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.WAKeychain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0FE7DCE1C81EA0300F8EB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F994C8305C32FAD29CE956CF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WAKeychain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.WAKeychain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0FE7DD01C81EA0300F8EB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WAKeychainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.WAKeychainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAKeychain.app/WAKeychain";
+			};
+			name = Debug;
+		};
+		E0FE7DD11C81EA0300F8EB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WAKeychainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.WAKeychainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAKeychain.app/WAKeychain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0FE7DA51C81EA0300F8EB16 /* Build configuration list for PBXProject "WAKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FE7DCA1C81EA0300F8EB16 /* Debug */,
+				E0FE7DCB1C81EA0300F8EB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FE7DCC1C81EA0300F8EB16 /* Build configuration list for PBXNativeTarget "WAKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FE7DCD1C81EA0300F8EB16 /* Debug */,
+				E0FE7DCE1C81EA0300F8EB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FE7DCF1C81EA0300F8EB16 /* Build configuration list for PBXNativeTarget "WAKeychainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FE7DD01C81EA0300F8EB16 /* Debug */,
+				E0FE7DD11C81EA0300F8EB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0FE7DA21C81EA0300F8EB16 /* Project object */;
+}
